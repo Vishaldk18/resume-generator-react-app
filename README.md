@@ -1,12 +1,56 @@
-# React + Vite
+# Resume & Cover Letter Generator ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based web application that uses AI (OpenRouter API) to generate professional resumes and cover letters. Users can fill out a simple form and get an instantly generated document that can also be downloaded as a `.docx` file.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✍️ Generates Resume or Cover Letter using OpenRouter (GPT-3.5)
+- 📄 Download as a properly formatted `.docx` file
+- 🎨 Modern UI built with Tailwind CSS
+- ⚡ Interactive loading and error handling
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- OpenRouter API (GPT-3.5)
+- `docx` (for .docx generation)
+- Vite (build tool)
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/ai-resume-generator.git
+   cd ai-resume-generator
+   ```
+
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
+
+3. **Create a `.env` file in the root**  
+   Add your OpenRouter API key:
+   ```
+   VITE_OPENROUTER_API_KEY=your_api_key_here
+   ```
+
+4. **Run the development server**  
+   ```bash
+   npm run dev
+   ```
+
+## 🧑‍💻 Usage
+
+1. Fill out your **Name**, **Job Title**, **Experience**, and **Skills**.
+2. Choose whether to generate a **Resume** or **Cover Letter**.
+3. Click **Generate** to get AI-generated content.
+4. Click **Download as DOCX** to save the result as a Word document.
+
+
+
+## 👤 Author
+
+**Made by Vishal Khairnar** ✨
+
